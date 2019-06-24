@@ -1,8 +1,8 @@
 // Write your solution in this file!
 const drivers = {};
 
-updateDriverWithKeyAndValue() {
-
+updateDriverWithKeyAndValue(obj, key, value) {
+  obj[key] = value;
 };
 
 destructivelyUpdateDriverWithKeyAndValue() {
